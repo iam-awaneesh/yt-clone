@@ -123,10 +123,17 @@ body {
 
 
 .search-div input{
-  width: 536px;
-  height: 40px;
-  padding: 0 1px;
+  width: 515.2px;
+  height: 24px;
+   border: none;
+    outline: none;
+    padding: 1px 0;
 }
 .search-div{
-  align-items: center;
+  width: 536px;
+  height: 40px;
+  /* background-color: green; */
+  margin: 0 0 0 32px;
+  padding: 0 4px 0 16px;
+  border-radius: 5px solid black;
 }
