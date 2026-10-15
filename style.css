@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: white;
 }
 
 #navbar {
@@ -13,7 +13,6 @@ body {
   height: 56px;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: antiquewhite;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +20,6 @@ body {
 }
 
 .nav-1 {
-  background-color: aqua;
   width: 159px;
   height: 56px;
   display: flex;
@@ -91,4 +89,44 @@ body {
   width: 100%;
   border: none;
   cursor: pointer;
+}
+
+.icon-image img{
+  height: 20px;
+}
+
+.icon-main-div{
+  display: flex;
+  color: red;
+  font-weight: bold;
+  align-items: center;
+  gap:2px;
+
+}
+
+.icon-btn button{
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn button img{
+  height: 20px;
+  width:20px
+}
+
+.menu-btn button{
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.search-div input{
+  width: 536px;
+  height: 40px;
+  padding: 0 1px;
+}
+.search-div{
+  align-items: center;
 }
