@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+#navbar {
+  width: 100%;
+  height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-1 {
+  background-color: aqua;
+  width: 159px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.nav-2 {
+  background-color: aqua;
+  width: 730px;
+  height: 40px;
+}
+.nav-3 {
+  background-color: aqua;
+  width: 225px;
+  height: 40px;
+}
+
+.menu-btn {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.icon-btn {
+  width: 123px;
+  height: 56px;
+  padding: 18px 14px 18px 16px;
+}
+
+#sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.side-1 {
+  width: 240px;
+  height: 105px;
+  padding: 12px;
+}
+
+.side-home {
+  width: 204px;
+  height: 40px;
+  padding: 0px 12px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.side-shorts {
+  width: 204px;
+  height: 40px;
+  padding: 0px 12px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.icon-home {
+  align-items: center;
+}
+
+.home-btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
